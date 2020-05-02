@@ -3,7 +3,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Abdirahiim/covid-19-somaliland-api)](https://github.com/Abdirahiim/covid-19-somaliland-api/network/members)
 [![HitCount](http://hits.dwyl.com/Abdirahiim/covid-19-somaliland-api.svg)](http://hits.dwyl.com/Abdirahiim/covid-19-somaliland-api)
 
-Covid-19 Somaliland API is an API made for tracking Coronavirus cases in Somaliland, the data is based on the [official Somaliland Coronavirus website](https:/somalilandcoronavirus.com)  and it's updated daily.
+Covid-19 Somaliland API is an API made for tracking Coronavirus cases in Somaliland, the data is based on the [official Somaliland Coronavirus website](https://somalilandcoronavirus.com)  and it's updated daily.
 
 ## API Reference
 
