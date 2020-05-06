@@ -1,8 +1,8 @@
-from flask import Flask, jsonify, request, Blueprint #import objects from the Flask model
+from flask import Flask, jsonify, request,Blueprint #import objects from the Flask model
 import pymysql.cursors
 
 # Connect to the database
-connection = pymysql.connect(host='ADRESS',
+connection = pymysql.connect(host='ADDRESS',
 user='USER',
 password='PASSWORD',
 db='DATABASE',
@@ -19,4 +19,5 @@ def LatestData():
     sql = "SELECT * from latest"
     cursor.execute(sql) #executes the sql statement
     result = cursor.fetchall() # fetches all the rows
+    connection.close() # closes connection
     return jsonify({'latest' : result}) # displays data in json format
